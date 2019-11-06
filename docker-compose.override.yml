@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  node:
+    volumes:
+      - ./node_modules:/app/node_modules   
+    ports:
+      - "8281:8281"
+      - "9229:9229"
+      - "9230:9230"
+
